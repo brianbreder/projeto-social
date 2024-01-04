@@ -8,7 +8,8 @@ html,body{
     background-attachment: fixed;
     background-size: cover;
      height: 100vh;
-     width: 100vw;  
+     width: 100vw; 
+     text-align: right; 
 }
 *{
     margin: 0%;
@@ -30,9 +31,21 @@ section#telefone{
     transform: translate(-50%, -50%);
 }
 iframe#tela{
-    width: 268px;
-    height: 470px;
+    width: 269px;
+    height: 475px;
     position:relative;
-    top: 25%;
-    left: 34%;
+    top: 78px;
+    left: -19px;
+}
+img{
+    width: 60px;
+    border-radius: 50%;
+    margin: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.856);
+    box-sizing: border-box;
+}
+section#redes-sociais img:hover{
+border: 3px solid rgba(255, 255, 255, 0.767);
+transform: translate(5, 5);
+box-shadow: 2px 2px 10px black;
 }
